@@ -5,7 +5,7 @@ import streamlit as st
 data_file = 'vehicles_us.csv'
 df = pd.read_csv(data_file)
 
-st.header("Cuadro de mandos de anuncios de venta de coches")
+st.header("Proyecto Sprint 6 TripleTen")
 
 show_histogram = st.checkbox("Construir histograma")
 show_scatter = st.checkbox("Construir Gráfico de Dispersión")
